@@ -67,7 +67,7 @@
 	transform: scale(1.3);
 }
 /* Responsive Design */
-@media (500px <= width <= 765px) {
+@media (500px <= width <= 768px) {
   .content .title {
     text-align: center;
     font-size: 30px;
@@ -88,7 +88,7 @@
     width: 180px;
   }
 }
-@media (375px <= width <= 499px) {
+@media (320px <= width <= 499px) {
   .content .title {
     text-align: center;
     font-size: 25px;
