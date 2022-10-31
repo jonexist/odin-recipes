@@ -5,13 +5,14 @@
   box-sizing: border-box;
   font-family: 'Fira Code', monospace;
 }
+/* Design for main page */
 .content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: calc(100vh - 1px);
-  padding: 5%;
+  padding: 0 5%;
   background-color: #D0B8A8;
 }
 .food-selection {
@@ -98,4 +99,18 @@
   .food img {
     max-width: 200px;
   }
+}
+/* end */
+
+/** Design for adobo recipe **/
+.recipe-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  min-height: calc(100vh - 1px);
+}
+.recipe-1 img {
+  width: 700px;
 }
